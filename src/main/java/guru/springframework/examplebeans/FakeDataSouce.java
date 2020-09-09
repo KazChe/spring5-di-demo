@@ -1,7 +1,7 @@
 package guru.springframework.examplebeans;
 
 public class FakeDataSouce {
-
+    //simple pojo
     private String user;
     private String password;
     private String url;
