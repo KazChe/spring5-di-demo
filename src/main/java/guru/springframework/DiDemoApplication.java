@@ -16,6 +16,8 @@ public class DiDemoApplication {
 		FakeDataSouce fakeDataSouce = (FakeDataSouce) ctx.getBean("fakeDataSouce");
 		System.out.println(fakeDataSouce.getUser());
 		System.out.println(fakeDataSouce.getPassword());
+
 		System.out.println(fakeDataSouce.getUrl());
+
 	}
 }
